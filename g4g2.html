@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body
+{
+  	height:800px;
+	background-image: linear-gradient(#4d4d4d,black);
+ 	background-repeat:no-repeat;
+	background-color:black;
+
+}
+
+
+
+
+#nav
+{
+ 	height:50px;
+	background-color:#222;
+	overflow-y:scroll;
+	margin-top:1px;
+}
+
+#nav a
+{
+	float:left;
+	padding:15px 15px;
+	color:white;
+	font-size:17px;
+	text-align:center;
+	text-decoration:none;
+}
+
+#nav a:hover
+{
+	color:green;
+}
+
+#nav1
+{
+ 	height:50px;
+	background-color:#222;
+	
+}
+
+#dd
+{
+	float:left;
+	
+}
+
+#dd #btn
+{
+  	font-size:17px;  
+  	border:none;
+  	outline:none;
+  	color:white;
+  	padding:15px 15px;
+  	background-color:#222;	
+ 
+}
+
+#dd #btn:hover
+{
+	color:green;
+}
+
+#dd-content
+{
+  	display:none;
+  	position:absolute;
+  	background-color:black;
+  	 
+}
+
+#dd-content a 
+{
+  	float:none;
+  	color:white;
+  	padding:15px 15px;
+  	text-decoration:none;
+  	display:block;
+  	text-align:left;
+}
+
+#dd-content a:hover 
+{
+  	color:green;
+}
+
+#dd:hover #dd-content 
+{
+  	display: block;
+}
+
+#sidenav 
+{
+ 	height:2500px;
+  	width:300px;
+  	position:absolute;
+  	z-index:-1;
+  	background-color:#111;
+  	padding-top:20px;
+	color:white;
+}
+
+#t
+{
+	margin-left:25px;
+}
+#x
+{
+	margin-left:30px;
+}
+
+#e
+{
+	margin-left:340px;
+	color:white;
+	margin-right:20%;	
+}
+
+</style>
+</head>
+
+<body>
+
+<div id="nav1">
+
+<div id="dd">
+    	<button id="btn">
+     Courses
+	<i class="fa fa-caret-down"></i>
+    	</button>
+    	<div id="dd-content">
+     		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">For Students</a>
+    		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">For Working professions</a>
+    		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">Programming Languages</a>
+		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">Web Development</a>
+		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">Machine Learning And <br>Data Science</a>
+
+    </div>
+</div>
+
+
+<div id="dd">
+    	<button id="btn">
+     Tutorials
+	<i class="fa fa-caret-down"></i>
+    	</button>
+    	<div id="dd-content">
+     		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">DSA</a>
+    		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">Data Structures</a>
+    		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">Algorithm</a>
+		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">Interview Corner</a>
+		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">Web Development</a>
+		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">Languages</a>
+		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">School Learning</a>
+		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">ML&Data Science</a>
+		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">CS Subjects</a>
+		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">GATE</a>
+		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">Software Designs</a>
+		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">GFG Sheets</a>
+		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">CS Exams/PSUs</a>
+		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">Student</a>
+
+    </div>
+</div>
+
+<div id="dd">
+    	<button id="btn">
+     Jobs
+	<i class="fa fa-caret-down"></i>
+    	</button>
+    	<div id="dd-content">
+     		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">Apply for a job</a>
+    		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">Apply through Jobathon</a>
+    		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">POst a Job</a>
+		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">Hire Through Jobathon</a>
+
+    </div>
+</div>
+
+<div id="dd">
+    	<button id="btn">
+     Practice
+	<i class="fa fa-caret-down"></i>
+    	</button>
+    	<div id="dd-content">
+     		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">All DSA Problems</a>
+    		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">Problems of the Day</a>
+    		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">GFG SDE Sheet</a>
+		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">Curated DSA Lists</a>
+
+    </div>
+</div>
+
+<div style = "position:absolute; right:750px; top:20px;">
+<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">
+<img  src="https://media.geeksforgeeks.org/gfg-gg-logo.svg" >
+</a>
+</div>
+
+<div style="position:absolute; right:160px; top:5px">
+<a href="">
+<img src="https://icon-library.com/images/search-icon-white-png/search-icon-white-png-3.jpg" width="60px" height="50px">
+</a>
+</div>
+
+<div style="position:absolute; right:100px; top:10px">
+<a href="">
+<img src="https://clipartcraft.com/images/transparent-language-white.png" width="40px" height="40px">
+</a>
+</div>
+
+<div style="position:absolute; right:30px; top:10px">
+<a href="">
+<img src="https://assets.stickpng.com/images/585e4bf3cb11b227491c339a.png" width="40px" height="40px">
+</a>
+</div>
+
+</div>
+
+
+
+
+
+<div id="nav">
+<a href="https://www.geeksforgeeks.org/learn-data-structures-and-algorithms-dsa-tutorial/?ref=shm">Data structures and Algorithms</a>
+<a href="https://www.geeksforgeeks.org/data-structures/?ref=shm">Data structures</a>
+<a href="https://www.geeksforgeeks.org/fundamentals-of-algorithms/?ref=shm">Algorithms</a>
+<a href="https://practice.geeksforgeeks.org/courses/complete-interview-preparation?utm_source=gfg_submenu&utm_medium=Home&utm_campaign=CIP_Submenu/">Interview Preparation</a>
+<a href="https://practice.geeksforgeeks.org/courses/data-science-live?utm_source=GfG&utm_medium=gfg_submenu&utm_campaign=DS_Submenu/">Data Science</a>
+<a href="https://www.geeksforgeeks.org/c-programming-language/?ref=shm">C</a>
+<a href="https://www.geeksforgeeks.org/c-plus-plus/?ref=shm">C++</a>
+<a href="https://www.geeksforgeeks.org/java/?ref=shm">Java</a>
+<a href="https://www.geeksforgeeks.org/python-programming-language/?ref=shm">Python</a>
+<a href="https://www.geeksforgeeks.org/category/guestblogs/?ref=shm">Latest Blogs</a>
+<a href="https://practice.geeksforgeeks.org/courses/competitive-programming-live?utm_source=GfG&utm_medium=gfg_submenu&utm_campaign=DS_Submenu/">Competitive Programming</a>
+<a href="https://www.geeksforgeeks.org/javascript/?ref=shm">Javascript</a>
+<a href="https://www.geeksforgeeks.org/machine-learning/?ref=shm">Machine Learning</a>
+<a href="https://write.geeksforgeeks.org/?ref=shm">Write&Earn</a>
+<a href="https://www.geeksforgeeks.org/web-development/?ref=shm">Web Development</a>
+<a href="https://www.geeksforgeeks.org/puzzles/?ref=shm">Puzzles</a>
+<a href="https://www.geeksforgeeks.org/computer-science-projects/?ref=sh">Projects</a>
+</div>
+
+
+
+
+<div id="sidenav">
+<div id="t">
+<h3>Write an Article</h3>
+<p>Write Articles</p>
+<p>Pick Topics to write</p>
+<p>Guidelines to Write</p>
+<p>Get Technical Writing Internship</p>
+<h3>Write an Interview Experience</h3>
+
+<p style="color:green;">Web Development</p>
+<h3>HTML</h3>
+<h3>CSS</h3>
+<div id="x">
+<p>CSS</p>
+<p>Bootstrap</p>
+<p>Tailwind CSS</p>
+<p>Bulma</p>
+<p>Pure CSS</p>
+<p>Materialize CSS</p>
+<p>Foundation</p>
+<p>Semantic UI</p>
+</div>
+<h3>JavaScript</h3>
+<div id="x">
+<p>JavaScript</p>
+<p>p5.js</p>
+<p>Lodash</p>
+<p>Collect.js</p>
+<p>Underscore.js</p>
+<p>TensorFlow.js</p>
+</div>
+<h3>NodeJS</h3>
+<div id="x">
+<p>NodeJS</p>
+<p>Express.js</p>
+</div>
+<h3>AngularJS</h3>
+<h3>jQuery</h3>
+<div id="x">
+<p>jQuery</p>
+<p>jQuery UI</p>
+<p>jQWidgets</p>
+<p>jQuery Mobile</p>
+</div>
+<h3>ReactJS</h3>
+<div id="x">
+<p>ReactJS Tutorials</p>
+<p>Ant Design</p>
+<p>React Desktop</p>
+<p>React Rebass</p>
+</div>
+<h3>PHP Tutorials</h3>
+<h3>TypeScript</h3>
+<h3>JSON</h3>
+<h3>SVG</h3>
+<h3>WordPress</h3>
+</div>
+</div>
+
+<div id="e">
+<h1>Web Development</h1>
+<p style="color:white;font-size:20px;">
+Web development refers to the creating, building, and maintaining of websites. It includes aspects such as web design, web publishing, web programming, and database management. It is the creation of an application that works over the internet i.e. websites.
+<br><br>
+
+<img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210310114057/web-development-image.png" width="700px" height="300px"> 
+<p style="color:white;font-size:20px;">
+The word Web Development is made up of two words, that is:
+</p>
+<ul>
+<p style="color:white;font-size:20px;">
+<li>Web: It refers to websites, web pages or anything that works over the internet.</li>
+<li>Development: It refers to building the application from scratch.</li>
+</ul> 
+</p>
+
+<p style="color:white;font-size:20px;">Web Development can be classified into two ways:</p>
+<ul>
+<li>Frontend Development</li>
+<li>Backend Development</li>
+</ul>
+<p align="center" style=;font-size:20px;" >Frontend Development</p>
+The part of a website that the user interacts directly is termed as front end. It is also referred to as the ‘client side’ of the application.
+<ul>
+<li>Frontend Roadmap:</li>
+<br>
+<img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210309160419/frontend-design-roadmap.jpeg" align="center" width="700px" height="300px">
+<br>
+<li>HTML: HTML stands for HyperText Markup Language. It is used to design the front end portion of web pages using markup language. It acts as a skeleton for a website since it is used to make the structure of a website.</li><br>
+<li>CSS: Cascading Style Sheets fondly referred to as CSS is a simply designed language intended to simplify the process of making web pages presentable. It is used to style our website.</li><br>
+<li>JavaScript: JavaScript is a scripting language used to provide a dynamic behavior to our website.</li><br>
+<li>Bootstrap: Bootstrap is a free and open-source tool collection for creating responsive websites and web applications. It is the most popular CSS framework for developing responsive, mobile-first websites. Nowadays, the websites are perfect for all the browsers (IE, Firefox, and Chrome) and for all sizes of screens (Desktop, Tablets, Phablets, and Phones).</li><br>
+</ul>
+
+Frontend Frameworks and Libraries:
+<ul>
+<li>AngularJS</li>
+<li>React.js</li>
+<li>VueJS</li>
+<li>jQuery</li>
+<li>Bootstrap</li>
+<li>Material UI</li>
+<li>Tailwind CSS</li>
+<li>jQuery UI</li>
+<li>Some other libraries and frameworks are: Handlebar.js Backbone.js, Ember.js etc.</li>
+</ul>
+
+<p align="center" style=;font-size:20px;" >Backend Development</p>
+Backend is the server side of a website. It is the part of the website that users cannot see and interact. It is the portion of software that does not come in direct contact with the users. It is used to store and arrange data.
+<br><br>
+<ul>
+<li>Backend Roadmap:</li>
+<img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210309162115/Backend-design-roadmap.jpeg" align="center" width="700px" height="300px"><br>
+<li>PHP: PHP is a server-side scripting language designed specifically for web development.</li><br>
+<li>Java: Java is one of the most popular and widely used programming language. It is highly scalable.</li><br>
+<li>Python: Python is a programming language that lets you work quickly and integrate systems more efficiently.</li><br>
+<li>Node.js: Node.js is an open source and cross-platform runtime environment for executing JavaScript code outside a browser.</li><br>
+<li>Back End Frameworks: The list of back end frameworks are: Express, Django, Rails, Laravel, Spring, etc.</li><br>
+</ul>
+
+</div>
+
+</body>
+</html>

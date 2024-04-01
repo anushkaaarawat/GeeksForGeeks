@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body
+{
+  	height:800px;
+	background-image: linear-gradient(#4d4d4d,black);
+ 	background-repeat:no-repeat;
+	background-color:black;
+
+}
+
+
+
+
+#nav
+{
+ 	height:50px;
+	background-color:#222;
+	overflow-y:scroll;
+	margin-top:1px;
+}
+
+#nav a
+{
+	float:left;
+	padding:15px 15px;
+	color:white;
+	font-size:17px;
+	text-align:center;
+	text-decoration:none;
+}
+
+#nav a:hover
+{
+	color:green;
+}
+
+#nav1
+{
+ 	height:50px;
+	background-color:#222;
+	
+}
+
+#dd
+{
+	float:left;
+	
+}
+
+#dd #btn
+{
+  	font-size:17px;  
+  	border:none;
+  	outline:none;
+  	color:white;
+  	padding:15px 15px;
+  	background-color:#222;	
+ 
+}
+
+#dd #btn:hover
+{
+	color:green;
+}
+
+#dd-content
+{
+  	display:none;
+  	position:absolute;
+  	background-color:black;
+  	 
+}
+
+#dd-content a 
+{
+  	float:none;
+  	color:white;
+  	padding:15px 15px;
+  	text-decoration:none;
+  	display:block;
+  	text-align:left;
+}
+
+#dd-content a:hover 
+{
+  	color:green;
+}
+
+#dd:hover #dd-content 
+{
+  	display: block;
+}
+
+#hi1
+{
+	
+    	font-weight:700;
+    	font-size:24px;
+    	font-family:sofia-pro,sans-serif;
+    	margin-bottom:20px;
+    	padding-top:55px;
+	color:white;
+	margin-left:550px;
+	
+}
+
+#hi2
+{
+	
+    	
+    	margin-bottom:20px;
+    	padding-top:5px;
+	margin-left:500px;
+	
+}
+
+form#sea input[type=text] 
+{
+  	box-sizing:border-box;
+	border-radius:10px;
+ 	padding:13px;
+  	box-shadow:0.5px 0.5px 1px 1px green;
+  	font-size:17px;
+  	border:1px solid white;
+  	width:40%;
+  	background:white;
+}
+
+form#sea #but1
+{
+  	width:10%;
+	border-radius:10px;
+  	padding:17px;
+  	background:#222221;
+  	color:white;
+	border:none;
+  	cursor:pointer;
+	font-size:15px;
+}
+
+#but
+{
+	background-color:#222221;
+	color:white;
+	border:none;
+	border-radius:10px;
+	cursor:pointer;
+	padding:10px 30px;
+	margin-left:450px;
+	font-size:12px;
+}
+
+#but2
+{
+	background-color:#222221;
+	color:white;
+	border:none;
+	border-radius:10px;
+	cursor:pointer;
+	padding:10px 30px;
+	font-size:12px;
+	
+}
+
+#tabl
+{
+	margin-left:100px;
+	margin-right:100px;
+	margin-top:60px;
+
+}
+
+#tabl2
+{
+	
+	width:1300px;
+	height:950px; 
+	background-image:linear-gradient(#222221,black); 
+	border-radius:20px;	
+}
+
+#card
+{
+	margin-left:50px;
+	box-shadow:0px 2px 5px 0px black;
+	trasition:1s;
+	border-radius:10px;
+
+}
+
+#card:hover
+{
+	box-shadow:0px 8px 8px 0px white;
+}
+
+#con
+{
+  	padding:2px;
+	color:white;
+}
+
+#column
+{
+  	float: left;
+  	width:30%;
+  	padding: 0 10px;
+}
+
+#tabl3
+{
+	margin-right:80px;
+	margin-left:50px;
+	margin-top:350px;
+	display:flex;
+	height:300px;
+	box-shadow:0px 2px 5px 0px white;
+	trasition:1s;
+	border-radius:10px;
+
+}
+
+#tex
+{
+	margin-top:50px;
+	margin-left:20px;
+margin-right:7%;	
+color:white;
+	font-size:30px;
+
+}
+
+
+</style>
+</head>
+
+<body >
+
+<div id="nav1">
+
+<div id="dd">
+    	<button id="btn">
+     Courses
+	<i class="fa fa-caret-down"></i>
+    	</button>
+    	<div id="dd-content">
+     		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">For Students</a>
+    		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">For Working professions</a>
+    		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">Programming Languages</a>
+		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">Web Development</a>
+		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">Machine Learning And <br>Data Science</a>
+
+    </div>
+</div>
+
+
+<div id="dd">
+    	<button id="btn">
+     Tutorials
+	<i class="fa fa-caret-down"></i>
+    	</button>
+    	<div id="dd-content">
+     		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">DSA</a>
+    		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">Data Structures</a>
+    		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">Algorithm</a>
+		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">Interview Corner</a>
+		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">Web Development</a>
+		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">Languages</a>
+		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">School Learning</a>
+		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">ML&Data Science</a>
+		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">CS Subjects</a>
+		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">GATE</a>
+		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">Software Designs</a>
+		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">GFG Sheets</a>
+		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">CS Exams/PSUs</a>
+		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">Student</a>
+
+    </div>
+</div>
+
+<div id="dd">
+    	<button id="btn">
+     Jobs
+	<i class="fa fa-caret-down"></i>
+    	</button>
+    	<div id="dd-content">
+     		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">Apply for a job</a>
+    		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">Apply through Jobathon</a>
+    		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">POst a Job</a>
+		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">Hire Through Jobathon</a>
+
+    </div>
+</div>
+
+<div id="dd">
+    	<button id="btn">
+     Practice
+	<i class="fa fa-caret-down"></i>
+    	</button>
+    	<div id="dd-content">
+     		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">All DSA Problems</a>
+    		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">Problems of the Day</a>
+    		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">GFG SDE Sheet</a>
+		<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">Curated DSA Lists</a>
+
+    </div>
+</div>
+
+<div style = "position:absolute; right:750px; top:20px;">
+<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g.html">
+<img  src="https://media.geeksforgeeks.org/gfg-gg-logo.svg" >
+</a>
+</div>
+
+<div style="position:absolute; right:230px; top:20px">
+<a href="file:///C:/Users/sahit/OneDrive/Documents/login.html">
+Login
+</a>
+</div>
+
+<div style="position:absolute; right:160px; top:5px">
+<a href="">
+<img src="https://icon-library.com/images/search-icon-white-png/search-icon-white-png-3.jpg" width="60px" height="50px">
+</a>
+</div>
+
+<div style="position:absolute; right:100px; top:10px">
+<a href="">
+<img src="https://clipartcraft.com/images/transparent-language-white.png" width="40px" height="40px">
+</a>
+</div>
+
+<div style="position:absolute; right:30px; top:10px">
+<a href="file:///C:/Users/sahit/OneDrive/Documents/signup.html">
+<img src="https://assets.stickpng.com/images/585e4bf3cb11b227491c339a.png" width="40px" height="40px">
+</a>
+</div>
+
+
+
+</div>
+
+
+
+
+
+<div id="nav">
+<a href="https://www.geeksforgeeks.org/learn-data-structures-and-algorithms-dsa-tutorial/?ref=shm">Data structures and Algorithms</a>
+<a href="https://www.geeksforgeeks.org/data-structures/?ref=shm">Data structures</a>
+<a href="https://www.geeksforgeeks.org/fundamentals-of-algorithms/?ref=shm">Algorithms</a>
+<a href="https://practice.geeksforgeeks.org/courses/complete-interview-preparation?utm_source=gfg_submenu&utm_medium=Home&utm_campaign=CIP_Submenu/">Interview Preparation</a>
+<a href="https://practice.geeksforgeeks.org/courses/data-science-live?utm_source=GfG&utm_medium=gfg_submenu&utm_campaign=DS_Submenu/">Data Science</a>
+<a href="https://www.geeksforgeeks.org/c-programming-language/?ref=shm">C</a>
+<a href="https://www.geeksforgeeks.org/c-plus-plus/?ref=shm">C++</a>
+<a href="https://www.geeksforgeeks.org/java/?ref=shm">Java</a>
+<a href="https://www.geeksforgeeks.org/python-programming-language/?ref=shm">Python</a>
+<a href="https://www.geeksforgeeks.org/category/guestblogs/?ref=shm">Latest Blogs</a>
+<a href="https://practice.geeksforgeeks.org/courses/competitive-programming-live?utm_source=GfG&utm_medium=gfg_submenu&utm_campaign=DS_Submenu/">Competitive Programming</a>
+<a href="https://www.geeksforgeeks.org/javascript/?ref=shm">Javascript</a>
+<a href="https://www.geeksforgeeks.org/machine-learning/?ref=shm">Machine Learning</a>
+<a href="https://write.geeksforgeeks.org/?ref=shm">Write&Earn</a>
+<a href="file:///C:/Users/sahit/OneDrive/Documents/g4g2.html">Web Development</a>
+<a href="https://www.geeksforgeeks.org/puzzles/?ref=shm">Puzzles</a>
+<a href="https://www.geeksforgeeks.org/computer-science-projects/?ref=sh">Projects</a>
+</div>
+	
+<div id="hi1">
+Hello, What Do You Want To Learn?
+</div>
+
+<div id="hi2">
+<form id="sea" >
+<input type="text" placeholder="search" >
+<button id="but1" type="submit" >Search</button>
+</form>
+</div>
+
+<a href="">
+<button id="but">Complete Interview Preparation Course</button></a>
+<a href="">
+<button id="but2">Master Data Science&ML</button></a>
+<a href="">
+<button id="but2">System Design-Live Classes</button></a>
+
+	
+<div id="tabl">
+<div id="tabl2">
+<p style="color:white; font-size:25px; padding:20px;">For You</p>
+
+   <div id="column">
+	<div id="card" >
+	<a href="">
+	<img style="border-radius:10px;" src="https://media.geeksforgeeks.org/auth-dashboard-uploads/read.png" width="100%">
+	<div id="con">
+		<p>WHAT IS DATA STRUCTURE?<p>
+		 A data structure is a group of data elements that provides the easiest way t...
+
+	</div>
+	</a>
+	</div>
+	
+   </div>
+
+   <div id="column">
+	<div id="card" >
+	<a href="">
+	<img style="border-radius:10px;" src="https://media.geeksforgeeks.org/auth-dashboard-uploads/practice.png" width="100%">
+	<div id="con">
+		<p>Explore Practice Problems<p>
+		 Solve DSA Problems. Filter based on topic tags and company tags. Get curated problem lists by GFG ex...
+
+
+	</div>
+	</a>
+	</div>
+	
+   </div>
+
+  <div id="column">
+	<div id="card" >
+	<a href="">
+	<img style="border-radius:10px;" src="https://media.geeksforgeeks.org/auth-dashboard-uploads/learn.png" width="100%">
+	<div id="con">
+		<p style="font-family:bahnschrift; text-decoration:none;">Complete Interview Preparation<p>
+		 An interview-centric & placement-preparation course designed to prepare you for the role of SDE for
+
+
+	</div>
+	</a>
+	</div>
+	
+   </div>
+
+
+<div id="tabl3">
+
+<img style="border-radius:10px;" src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20201216211829/100-Days-of-Code-%E2%80%93-A-Complete-Guide-For-Beginners-and-Experienced.jpg" width="160%">
+
+<div id="tex">
+
+	100 Days of Code - A Complete Guide For Beginners and Experienced<br>
+	<p style="color:#a5a5a5; font-size:20px;">
+	Do you want to become a successful software developer and dreaming about getting into the big tech companies?Are you someone who is already working as a developer but look...
+	</p>
+
+</div>
+</div>
+
+</br></br></br></br></br>
+<div style="color:white;margin-right:50px;margin-left:50px;">
+<h1> Data Structures</h1>
+<a href="">
+<img src="C:\Users\sahit\OneDrive\Pictures\Screenshots\Screenshot_20230221_150833.png" width="290px">
+</a>
+<a href="">
+<img src="C:\Users\sahit\OneDrive\Pictures\Screenshots\Screenshot_20230221_150843.png" width="290px">
+</a>
+<a href="">
+<img src="C:\Users\sahit\OneDrive\Pictures\Screenshots\Screenshot_20230221_150855.png" width="290px">
+</a>
+<a href="">
+<img src="C:\Users\sahit\OneDrive\Pictures\Screenshots\Screenshot_20230221_153640.png" width="290px">
+</a>
+</div>
+
+</br></br></br></br></br>
+<div style="color:white;margin-right:50px;margin-left:50px;">
+<h1> Algorithm</h1>
+<a href="">
+<img src="C:\Users\sahit\OneDrive\Pictures\Screenshots\Screenshot_20230221_154755.png" width="290px">
+</a>
+<a href="">
+<img src="C:\Users\sahit\OneDrive\Pictures\Screenshots\Screenshot_20230221_154927.png" width="290px">
+</a>
+<a href="">
+<img src="C:\Users\sahit\OneDrive\Pictures\Screenshots\Screenshot_20230221_154946.png" width="290px">
+</a>
+<a href="">
+<img src="C:\Users\sahit\OneDrive\Pictures\Screenshots\Screenshot_20230221_155002.png" width="290px">
+</a>
+</div>
+
+</div>
+</div>
+
+
+
+</body>
+</html>
